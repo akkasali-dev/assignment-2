@@ -65,6 +65,12 @@
 .item-color3{
   background-color: #5D58F0;
 }
+.bar-icon{
+  width: 200px;
+  height: 50px;
+  display: none;
+}
+
 
 /* nav related styles */
 .navbar{
@@ -288,7 +294,7 @@ footer{
     grid-template-columns: repeat(1, 1fr);
   }
   .banner{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .card{
     text-align: center;
@@ -305,5 +311,9 @@ footer{
   }
   .kids-description{
     margin-left: 20px;
+  }
+  .bar-icon{
+    display: block;
+    margin-left:250px ;
   }
 }
